@@ -8,6 +8,7 @@ import Example01 from './example01/Example01';
 import Example02 from './example02/Example02';
 import PieExamples from './pie-charts/PieCharts';
 import ColumnChart from './column-chart/culumnchart';
+import MyAutoCompletes from './auto-complete/AutoCompelte'
 
 function App() {
   
@@ -15,7 +16,8 @@ function App() {
   //  <Example01></Example01>
   // <Example02></Example02>
   // <PieExamples></PieExamples>
-  <ColumnChart></ColumnChart>
+  // <ColumnChart></ColumnChart>
+  <MyAutoCompletes></MyAutoCompletes>
   );
 }
 
