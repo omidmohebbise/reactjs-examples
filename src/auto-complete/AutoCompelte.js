@@ -1,14 +1,12 @@
 import React from 'react'
 import Autocomplete from 'react-autocomplete'
 
-import { getStates, matchStateToTerm, sortStates } from './util'
-
 
 export default class MyAutoCompletes extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      value: 'Ma',
+      value: '',
       orginalItems: [],
       items: []
     }
@@ -66,10 +64,7 @@ export default class MyAutoCompletes extends React.Component {
   }
 
   render() {
-
-
     return (
-
       <div>
         <h1>Basic Example with Static Data</h1>
         <Autocomplete
@@ -85,7 +80,6 @@ export default class MyAutoCompletes extends React.Component {
           // onChange={(e) => this.setState({value : e.target.value})}
           onSelect={(val) => this.setState({ value: val })}
         />
-
       </div>
     )
   }
