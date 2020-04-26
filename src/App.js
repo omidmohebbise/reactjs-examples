@@ -10,6 +10,7 @@ import PieExamples from './pie-charts/PieCharts';
 import ColumnChart from './column-chart/culumnchart';
 import MyAutoCompletes from './auto-complete/AutoCompelte'
 import MyPagination from './pagination/Pagination';
+import TimeLine01 from './timeline/TimeLine01';
 
 function App() {
   
@@ -19,7 +20,8 @@ function App() {
   // <PieExamples></PieExamples>
   // <ColumnChart></ColumnChart>
   // <MyAutoCompletes></MyAutoCompletes>
-  <MyPagination></MyPagination>
+  // <MyPagination></MyPagination>
+  <TimeLine01></TimeLine01>
   );
 }
 

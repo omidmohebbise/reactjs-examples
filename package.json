@@ -14,8 +14,10 @@
     "react-autocomplete": "^1.8.1",
     "react-bootstrap-sidebar": "0.0.1",
     "react-dom": "^16.12.0",
+    "react-icons": "^3.10.0",
     "react-minimal-pie-chart": "^7.0.0",
     "react-scripts": "3.3.0",
+    "react-vertical-timeline-component": "^2.6.0",
     "reactstrap": "^8.2.0",
     "stateful-pagination": "^1.0.10"
   },
